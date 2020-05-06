@@ -1,0 +1,97 @@
+#BG{/* background */
+    width: 686px;
+    height: 480px; 
+    margin: 0 auto;
+    background-image:url(../img/bg.jpg);
+    position: relative;
+    top: 100px;
+    overflow: hidden;
+}
+
+#Name{
+    width: 236px;height: 77px;
+    background-image: url(../img/head.jpg);
+    position: absolute; left: 225px; top: 100px;
+}
+
+#Demo{/* little dragon */
+    float:right;
+    margin-top: 25px;
+}
+
+#start_Btn{
+    width: 85px;height: 29px;
+    padding: 0;margin: 0;
+    background-image: url(../img/start.jpg);
+    position: absolute;left: 300px;top: 250px;
+}
+
+#Land1{
+    height: 14px;width: 686px;
+    background-image: url(../img/land.jpg);
+    position: absolute;
+    top: 423px;
+}
+
+#Land2{
+    height: 14px;width: 686px;
+    background-image: url(../img/land.jpg);
+    position: absolute;
+    top: 423px;left: 686px;
+}
+
+#score_panel{
+    position:absolute;
+    left: 130px;
+    top: 50px;
+    z-index: 2;
+}
+
+#score_panel div{/* points */
+    height: 39px;
+    width: 28px;
+    float: left;
+    background-image: url(../img/0.jpg);
+    display: none;
+    z-index: 1;
+}
+
+#GameoverDiv{
+    position: absolute;
+    width: 349px;
+    top: 100px;
+    left: 168px;
+    text-align: center;
+    display: none;
+    z-index: 1;
+}
+
+#best_panel{
+    position:absolute;
+    left: 391px; 
+    top: 263px;
+    z-index: 2;
+}
+
+#best_panel div{/* Higest score */
+    height: 39px;
+    width: 28px;
+    float: left;
+    display: none;
+    z-index: 1;
+}
+
+#Medal_panel{
+    position: absolute;
+    left: 191px; 
+    top: 195px;
+    z-index: 2;
+}
+
+#Medal_panel div{/* Medal Type */
+    height: 94px;
+    width: 108px;
+    float: left;
+    display: none;
+    z-index: 1;    
+}
